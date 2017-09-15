@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/Cellar/node/8.4.0/bin/node /usr/local/Cellar/yarn/1.0.1/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/jemmyphan/.rvm/gems/ruby-2.4.0/bin:/Users/jemmyphan/.rvm/gems/ruby-2.4.0@global/bin:/Users/jemmyphan/.rvm/rubies/ruby-2.4.0/bin:/Users/jemmyphan/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jemmyphan/Library/Android/sdk/tools:/Users/jemmyphan/Library/Android/sdk/platform-tools:/Users/jemmyphan/.fzf/bin:/Users/jemmyphan/.rvm/bin:/Users/jemmyphan/go/bin:/usr/local/opt/go/libexec/bin
+
+Yarn version: 
+  1.0.1
+
+Node version: 
+  8.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-native-day-picker",
+    "version": "1.1.6",
+    "description": "react-native-day-picker is a simple calendar which allows you to select date range. Suites for android and ios",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-native start"
+    },
+    "author": "Vladimir Ivanchenko",
+    "license": "ISC",
+    "keywords": [
+      "calendar",
+      "picker",
+      "day-picker",
+      "date",
+      "range",
+      "native",
+      "react",
+      "react-component",
+      "react-native"
+    ],
+    "peerDependencies": {
+      "react": ">=15.0.0",
+      "react-native": ">=0.25.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ivanchenko/react-native-day-picker.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.0.1/libexec/lib/cli.js:115284:13)
+      at emitNone (events.js:105:13)
+      at Interface.emit (events.js:207:7)
+      at Interface._ttyWrite (readline.js:770:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:125:13)
+      at ReadStream.emit (events.js:213:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1007:36)
