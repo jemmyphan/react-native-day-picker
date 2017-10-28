@@ -1,14 +1,13 @@
 'use strict';
 
-import React, {
-	PropTypes
-}               from 'react';
+import React from 'react';
 import {
 	ListView,
 	StyleSheet,
-}               from 'react-native';
+} from 'react-native';
+import PropTypes from 'prop-types'
 
-import Month    from './Month';
+import Month  from './Month';
 
 
 export default class Calendar extends React.Component {
